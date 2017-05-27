@@ -18,6 +18,9 @@ using System.Reflection;
  Tags,Layers,和SortingLayer的名稱開頭不能有數字，
  轉成變數名稱時會有問題，前面可加個底線以避免這情況
 
+注意：
+這個腳本要放到名為Editor的資料夾裡才會有作用
+
  參考來源：
 Namek/TagsLayersEnumBuilder.cs
 https://gist.github.com/Namek/ecafa24a6ae3d730baf1
