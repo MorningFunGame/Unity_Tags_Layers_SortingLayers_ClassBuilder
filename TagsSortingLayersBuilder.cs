@@ -1,11 +1,3 @@
-using UnityEngine;
-using UnityEditor;
-using System;
-using System.IO;
-using System.Text;
-using UnityEditorInternal;
-using System.Reflection;
-
 /*說明
  功能：
  利用功能表  Tools--> Tags+Layers+SortingLayers,
@@ -28,6 +20,14 @@ https://gist.github.com/Namek/ecafa24a6ae3d730baf1
 How do you get a list of Sorting Layers via scripting?
 http://answers.unity3d.com/questions/585108/how-do-you-access-sorting-layers-via-scripting.html
 */
+using UnityEngine;
+using UnityEditor;
+using System;
+using System.IO;
+using System.Text;
+using UnityEditorInternal;
+using System.Reflection;
+
 enum ClassType { Tags, Layers, SortingLayers }
 
 public class TagsSortingLayersBuilder : EditorWindow
